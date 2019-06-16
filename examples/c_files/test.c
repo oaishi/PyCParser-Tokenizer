@@ -1,8 +1,8 @@
 int Node, Hash;
-    int HashPrint( )
+    int HashPrint( int flag)
     {
         unsigned int i;
-	   i=0;
+	    i=0;
         for (i = 0; i < hash; ++i)
         {
             Node++;
