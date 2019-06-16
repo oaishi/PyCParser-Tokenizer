@@ -163,12 +163,11 @@ def token_manipulation(tokenstack):
         a=tokenstack[iter]
         if a.type == 'ID':
             if prevtoken != '': #declaration
-
                 tokenstack[iter].type = "ID_"+ prevtoken
                 if flag == 0:
                     declarelist[currentscope-1][a.value] = prevtoken
                     print(declarelist)
-                    if tokenstack[iter + 1].type == 'LPAREN':
+                    if tokenstack[iter + 1].type == 'LPAREN': #function
                         formallist = {}
                         flag = 1
                 else:
@@ -180,36 +179,35 @@ def token_manipulation(tokenstack):
 
                 try:
                     found = declarelist[currentscope-1][a.value]
-                    print(a.value + " - "+ found)
+                    #print(a.value + " - "+ found)
                     tokenstack[iter].type = "ID_" + found
-                    print(a.value + " - " + found + " - "+ tokenstack[iter].type)
+                    #print(a.value + " - " + found + " - "+ tokenstack[iter].type)
                 except KeyError:
                     searchfurther = 1
 
                 if searchfurther == 1:
                     try:
-                        found = declarelist[currentscope - 1][a.value]
-                        print(a.value + " - " + found)
+                        found = formallist[a.value]
+                        #print(a.value + " - " + found)
                         tokenstack[iter].type = "ID_" + found
-                        print(a.value + " - " + found + " - " + tokenstack[iter].type)
+                        #print(a.value + " - " + found + " - " + tokenstack[iter].type)
                         searchfurther = 0
                     except KeyError:
                         searchfurther = 1
 
-                for i in range(1,currentscope-1):
+                for i in range(1,currentscope):
                     if searchfurther == 1:
                         try:
                             found = declarelist[i - 1][a.value]
-                            print(a.value + " - " + found)
                             tokenstack[iter].type = "ID_" + found
-                            print(a.value + " - " + found + " - " + tokenstack[iter].type)
+                            #print(a.value + " - " + found + " - " + tokenstack[iter].type)
                             searchfurther = 0
                             break
                         except KeyError:
                             searchfurther = 1
 
 
-        if a.type != 'ID' or a.type != 'COMMA':
+        if a.type.startswith('ID')==False and a.type != 'COMMA':
             prevtoken = ''
 
         if a.type == 'RPAREN':

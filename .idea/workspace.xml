@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97c6b0c-b135-4a24-95c1-cd09f642a803" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/examples/c_files/test.c" afterPath="$PROJECT_DIR$/examples/c_files/test.c" />
       <change beforePath="$PROJECT_DIR$/examples/treegen.py" afterPath="$PROJECT_DIR$/examples/treegen.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="treegen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/treegen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="204" column="90" lean-forward="false" selection-start-line="204" selection-start-column="90" selection-end-line="204" selection-end-column="90" />
+            <state relative-caret-position="153">
+              <caret line="210" column="12" lean-forward="false" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
               <folding>
                 <element signature="e#51#88#0" expanded="true" />
                 <element signature="e#988#2653#0" expanded="false" />
@@ -28,8 +25,8 @@
                 <element signature="e#4549#4760#0" expanded="false" />
                 <element signature="e#4796#5046#0" expanded="false" />
                 <element signature="e#5161#5183#0" expanded="false" />
-                <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-                <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+                <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+                <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
               </folding>
             </state>
           </provider>
@@ -39,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/pycparser/c_lexer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1502">
-              <caret line="108" column="40" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="108" selection-end-column="40" />
+              <caret line="108" column="40" lean-forward="false" selection-start-line="102" selection-start-column="8" selection-end-line="108" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -48,7 +45,7 @@
       <file leaf-file-name="test.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/c_files/test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-23">
               <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
@@ -130,6 +127,7 @@
       <find>value</find>
       <find>visit</find>
       <find>symbolt</find>
+      <find>ID_INT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,8 +144,8 @@
         <option value="$PROJECT_DIR$/examples/difflib.py" />
         <option value="$PROJECT_DIR$/pycparser/c_parser.py" />
         <option value="$PROJECT_DIR$/pycparser/ply/yacc.py" />
-        <option value="$PROJECT_DIR$/examples/treegen.py" />
         <option value="$PROJECT_DIR$/examples/c_files/test.c" />
+        <option value="$PROJECT_DIR$/examples/treegen.py" />
       </list>
     </option>
   </component>
@@ -389,7 +387,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54662377" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5546624" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5546624" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -422,8 +420,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -501,8 +499,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -580,8 +578,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -659,8 +657,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -766,8 +764,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -859,8 +857,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1001,7 +999,7 @@
     <entry file="file://$PROJECT_DIR$/pycparser/c_lexer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1502">
-          <caret line="108" column="40" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="108" selection-end-column="40" />
+          <caret line="108" column="40" lean-forward="false" selection-start-line="102" selection-start-column="8" selection-end-line="108" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1062,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/c_files/test.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-23">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
@@ -1070,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/treegen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="204" column="90" lean-forward="false" selection-start-line="204" selection-start-column="90" selection-end-line="204" selection-end-column="90" />
+        <state relative-caret-position="153">
+          <caret line="210" column="12" lean-forward="false" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
           <folding>
             <element signature="e#51#88#0" expanded="true" />
             <element signature="e#988#2653#0" expanded="false" />
@@ -1079,8 +1077,8 @@
             <element signature="e#4549#4760#0" expanded="false" />
             <element signature="e#4796#5046#0" expanded="false" />
             <element signature="e#5161#5183#0" expanded="false" />
-            <marker date="1560656087467" expanded="true" signature="5308:5563" ph="..." />
-            <marker date="1560656087467" expanded="true" signature="7998:8052" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="5308:5563" ph="..." />
+            <marker date="1560658325998" expanded="true" signature="7949:8003" ph="..." />
           </folding>
         </state>
       </provider>
